@@ -31,7 +31,7 @@ case $ch in
       echo "Answer = "$sum;;
     *)echo "choose 1 to 4 only!!!";;
 esac
-echo "Do you want to calculate again ( yes/no ) ?"
+echo "Do you want to calculate again ( y/n ) ?"
 read i
 if [ $i != "y" ]
 then

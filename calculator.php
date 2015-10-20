@@ -3,7 +3,7 @@
 <title>Calculator</title>
 </head>
 <body>
-<center style="border:#FFFF00 2px SOLTD">
+<center style="border:#33FFF 2px SOLTD">
 <br><font size="10" color="red"> Calculator.</font></center>
 <br><center><form method='post' action='calculator.php'>
 <input type='text' name='valuel'>

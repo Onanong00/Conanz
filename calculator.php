@@ -4,7 +4,7 @@
 </head>
 <body>
 <center style="border:#33FFF 2px SOLTD">
-<br><font size="10"> Calculator.</font></center>
+<br><font size="10" color="red"> Calculator.</font></center>
 <br><center><form method='post' action='calculator.php'>
 <input type='text' name='valuel'>
 <input type='text' name='value2'>

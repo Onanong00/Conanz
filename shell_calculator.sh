@@ -22,16 +22,16 @@ echo "Enter your choice"
 read ch
 case $ch in
     1)sum=`expr $num1 + $num2`
-     echo "Answer = "$sum;;
-        2)sum=`expr $num1 - $num2`
-     echo "Answer = "$sum;;
+      echo "Answer = "$sum;;
+    2)sum=`expr $num1 - $num2`
+      echo "Answer = "$sum;;
     3)sum=`expr $num1 \* $num2`
-     echo "answer = "$sum;;
+      echo "answer = "$sum;;
     4)sum=`expr $num1 / $num2`
-     echo "Answer = "$sum;;
+      echo "Answer = "$sum;;
     *)echo "choose 1 to 4 only!!!";;
 esac
-echo "Do yo u want to calculate again ( y/n ) ?"
+echo "Do you want to calculate again ( y/n ) ?"
 read i
 if [ $i != "y" ]
 then
